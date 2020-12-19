@@ -1,0 +1,9 @@
+{
+  "budgetDisplayName": "Test-Budget",
+  "alertThresholdExceeded": 1.1667,
+  "costAmount": 35.00,
+  "costIntervalStart": "2019-01-01T00:00:00Z",
+  "budgetAmount": 30.00,
+  "budgetAmountType": "SPECIFIED_AMOUNT",
+  "currencyCode": "CAD"
+}

@@ -1,0 +1,1 @@
+gcloud functions deploy discordalert --trigger-topic $PUBSUBTOPIC --runtime nodejs12 --env-vars-file .env.yaml
