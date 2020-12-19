@@ -1,5 +1,0 @@
-const data = Buffer.from("ewogICJidWRnZXREaXNwbGF5TmFtZSI6ICJUZXN0LUJ1ZGdldCIsCiAgImFsZXJ0VGhyZXNob2xkRXhjZWVkZWQiOiAxLjE2NjcsCiAgImNvc3RBbW91bnQiOiAzNS4wMCwKICAiY29zdEludGVydmFsU3RhcnQiOiAiMjAxOS0wMS0wMVQwMDowMDowMFoiLAogICJidWRnZXRBbW91bnQiOiAzMC4wMCwKICAiYnVkZ2V0QW1vdW50VHlwZSI6ICJTUEVDSUZJRURfQU1PVU5UIiwKICAiY3VycmVuY3lDb2RlIjogIkNBRCIKfQ==", 'base64').toString()
-const json = JSON.parse(data)
-console.log(data)
-console.log(json)
-console.log(typeof json)

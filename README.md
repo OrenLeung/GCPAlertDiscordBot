@@ -22,10 +22,10 @@ Sample .env.yaml can be found at .env.sample.yaml
 
 ## Deployment
 1. Export the name of a pubsub channel (`export PUBSUBCHANNELNAME`)
-2. Run `./deploy.sample.yaml`
+2. Run `./script/deploy.sample.yaml`
 3. Add a GCP Budget and Connect to the PubSub Channel specified about
 ![Cloud Billing Setup](./docs/CloudBillingSetup.jpg)
-4. Sample Data PayLoad can be found in sample-request.json. Copy and Paste it into GCP PubSub Console -> Publish Message -> Message Body 
+4. Sample Data PayLoad can be found in sample-data/sample-request.json. Copy and Paste it into GCP PubSub Console -> Publish Message -> Message Body 
 
 ## TODO
 - add Docker Support For Cloud Run
